@@ -73,7 +73,7 @@ typedef union
  * CONSTANTS
  **************************************************************************************/
 #if defined(ARDUINO_EDGE_CONTROL)
-static int const EDGE_CONTROL_W25Q16DV_CS_PIN = 28;
+static int const EDGE_CONTROL_W25Q16DV_CS_PIN = PIN_QSPIDCS;
 #else
 static int const MKRMEM_W25Q16DV_CS_PIN = 5;
 #endif
